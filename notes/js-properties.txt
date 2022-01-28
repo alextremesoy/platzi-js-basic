@@ -1,0 +1,39 @@
+NOTAS CLASE 1 
+27 - Jan - 2022
+---------------------------------
+
+JS -> lenguaje interpretado -> Orientado a objetos -> debilmente tipado -> dinamico
+
+Surge de la necesidad de hacer las paginas mas interactivas.
+
+"" JS CODE HERE ""
+4 + "7"; -> "47" 
+4 * "7"; -> 28
+2 + true; ->  3 boolean true lo toma como 1
+false - 3; -> 0 - 3 -> boolean false lo toma como 0
+
+lenguaje humano -> compile time -> runtime
+
+C++, C, Java -> lenguajes estaticos.
+
+JS, Python -> lenguajes dinamicos.
+
+JS -> lenguaje interpretado 
+
+
+Motor de JS v8 -> funciona como una especie de compilador. -> just in time compiler
+
+Ramificacion de JS -> despues interpreta el codigo. -> traduce la interpretacion a codigo binario.
+
+JS es realmente compilado y tambien interpretado.
+
+
+Fowards -> 
+
+Backward -> No va a romper el codigo nuevo pero no lo vas a poder usar. 
+		W3E tiene que hacer estandares.
+	Tienes que checar que el navegador sea compatible con las nuevas versiones.
+	Babel -> Compilador de JS que permite usar las nuevas versiones y transforma el codigo
+	a una version estandar.
+
+
