@@ -1,4 +1,4 @@
-// Fasly or Truthy
+// False Values 
 
 
 var falseNumber = 0;
