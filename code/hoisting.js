@@ -11,7 +11,7 @@ myName = "Alejandro";
 // this var was not initialized.
 // Motor of JS compiles and creates all the var first and the functions, soo..
 // this lines were elevated.
-console.log(hoistingExists);
+console.log(hoistingExists); // undefined
 
 var hoistingExists = true;
 
@@ -23,6 +23,6 @@ var hoistingExists = true;
 hey();
 
 function hey() {
-    console.log("Hey u!");
+    console.log("Hey u!"); // Function elevated -> hoisting
 }
 
