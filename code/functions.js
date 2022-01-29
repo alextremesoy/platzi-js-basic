@@ -9,6 +9,10 @@
 
 
 // Declarative
+/*
+    -> HOSTING: We can call the declarative function 
+    before declaring the function because of the hosting.
+*/
 
 function miRandomFunction() {
     console.log(" This is a random function ");
@@ -17,6 +21,11 @@ function miRandomFunction() {
 }
 
 // Expression
+/*
+    This can be anonymous functions and this does not
+    have the hoisting property. Meaning the function 
+    should be called after created.
+*/
 
 const miExpressionFunction = (a, b) => {
     console.log("This var stores a function");
