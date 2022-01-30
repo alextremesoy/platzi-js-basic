@@ -1,0 +1,22 @@
+{
+  "name": "platzi-basic",
+  "version": "1.0.0",
+  "description": "Code of the platzi course of basic js",
+  "main": "index.js",
+  "scripts": {
+    "challenge1": "node ./code/challenge1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alextremesoy/platzi-js-basic.git"
+  },
+  "author": "Alejandro AS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alextremesoy/platzi-js-basic/issues"
+  },
+  "homepage": "https://github.com/alextremesoy/platzi-js-basic#readme",
+  "dependencies": {
+    "prompt": "^1.2.1"
+  }
+}
